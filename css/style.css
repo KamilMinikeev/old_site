@@ -1,0 +1,465 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+a {
+    color: #fff;
+}
+img {
+    max-width: 100%;
+}
+body {
+    background-color: #20202D;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;;
+}
+.container {
+    width: 90%;
+    max-width: 945px;
+    margin: 0 auto;
+}
+.section {
+    padding-top: 64px;
+    padding-bottom: 92px;
+}
+.section-title {
+    margin: 0;
+    margin-bottom: 84px;
+}
+         /*Hero*/
+.hero {
+    padding-top: 50px;
+    background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+    padding-bottom: 105px;
+}
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 105px;
+}
+.social-link {
+    margin-left: 20px;
+}
+.social-link:first-child {
+    margin-left: 0;
+}
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-subtitle {
+    font-size: 24px;
+    color: #FFBB01;
+    line-height: 28px;
+
+    display: block;
+}
+.hero-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.hero-description {
+    font-size: 15px;
+    line-height: 28px;
+    max-width: 420px;
+    margin-bottom: 38px;
+}
+button {
+    background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+    box-shadow: 0px 4px 0px #B68500;
+    border-radius: 5px 5px 10px 10px;
+    padding: 24px 42px 24px 41px;
+    border: none;
+
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.hero-avatar {
+    width: 389px;
+    height: 389px;
+    background-color: #fff;
+    border-radius: 50%;
+    background-image: url(../img/content/avatar.jpg);
+    background-repeat: no-repeat;
+    background-position: center top -40px;
+    border: 13px solid #fff;
+}
+
+        /* features */
+.features {
+    background-color: #000;
+
+    padding-bottom: 0;
+}
+.features-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.features-item {
+    width: 30%;
+    margin-bottom: 64px;
+}
+.features-img {
+    margin-bottom: 22px;
+}
+.features-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.features-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+}
+
+     /*Projects*/
+.projects {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+
+    padding-bottom: 0;
+}
+.projects-slide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+.project-text {
+    width: 60%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-title {
+    width: 100%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    margin-bottom: 41px;
+}
+.project-time,.project-cost,.project-feedback {
+    display: flex;
+    align-items: flex-start;
+}
+.project-time,.project-cost {
+    width: 50%;
+
+    margin-bottom: 44px;
+}
+.project-subtitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+
+    margin-bottom: 7px;
+
+}
+.project-icon {
+    margin-right: 16px;
+}
+.project-description {
+    width: 84%;
+}
+.project-paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+
+}
+.projects-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects-bullet {
+    width: 10px;
+    height: 10px;
+
+    border: 2px solid #FFBB01;
+    border-radius: 50%;
+
+    display: inline-block;
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.projects-bullet-active {
+    background: #FFBB01;
+}
+
+     /*Сontacts*/
+
+.contacts-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts-form {
+    background: #FFFFFF;
+    box-shadow: -5px 5px 0px #FFC41D;
+    border-radius: 5px;
+    max-width: 380px;
+    padding: 40px 48px 49px 48px;
+}
+.contacts-text {
+    width: 50%;
+}
+
+
+.contacts-data {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-bottom: 45px;
+}
+.contacts-phone,.contacts-mail {
+    width: 50%;
+}
+.contacts-title {
+    margin-bottom: 15px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+.contacts-social {
+    width: 100%;
+
+    margin-top: 53px;
+}
+.contacts-link {
+    text-decoration: none;
+    margin-right: 37px;
+}
+.contacts-link:hover {
+    text-decoration: underline;
+}
+.contacts-policy {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+
+    color: #A5A5A5;
+    display: inline-block;
+    margin-top: 72px;
+}
+
+        /*Form*/
+.form-title {
+    color: #000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 29px;
+}
+.form-input {
+    background: #F8F8F8;
+    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+    border-radius: 5px;
+    padding: 18px 20px;
+    padding-left: 50px;
+    width: 100%;
+
+    border: none;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+}
+.input-name {
+    margin-bottom: 17px;
+    background-image: url(../img/contacts/user-icon.svg);
+}
+.input-phone {
+    margin-bottom: 28px;
+    background-image: url(../img/contacts/phone-icon.svg);
+}
+.form-button {
+    padding-right: 51px;
+}
+
+    /*Responsive*/
+@media (max-width: 1100px) /*Айпад про*/ { 
+    .hero-avatar {
+        width: 300px;
+        height: 300px;
+
+        border-width: 10px;
+        background-position: center top -45px;
+    }
+}
+
+@media (max-width: 845px)/*Айпад про 2*/ {
+    .hero-content {
+        flex-direction: column;
+    }
+    .hero-avatar {
+        order: 0;
+
+        margin-bottom: 60px;
+    }
+    .hero-text {
+        order: 1;
+
+        text-align: center;
+    }
+    .hero-button {
+        margin: 0 auto;
+    }
+
+    /*Features*/
+    .features-item {
+        flex-basis: 45%;
+    }
+
+    /*Slider*/
+    .projects-slide {
+        flex-direction: column;
+    }
+    .project-img {
+        margin-bottom: 70px;
+    }
+    .project-text {
+        width: 100%;
+    }
+
+    /*Contacts*/
+    .contacts-block {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contacts-form {
+        margin-bottom: 60px;
+    }
+    .contacts-text {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 500px)/*XR*/ {
+    .section-title {
+        margin-bottom: 38px;
+    }
+    /*hero*/
+    .hero {
+        padding-bottom: 36px;
+    }
+    .hero-header {
+        margin-bottom: 50px;
+    }
+    .hero-subtitle {
+        font-size: 23px;
+    }
+    .hero-title {
+        font-size: 34px;
+    }
+    .hero-avatar {
+        width: 250px;
+        height: 250px;
+        border-width: 8px;
+        background-position: center top -50px;
+    }
+
+    /*Features*/
+    .features-item {
+        flex-basis: 100%;
+        margin-bottom: 46px;
+    }
+    .features-item:last-child {
+        margin-bottom: 0;
+    }
+
+    /*Projects*/
+    .project-title {
+        line-height: 32px;
+    }
+    .project-paragraph {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 350px) /*SE*/ {
+    /*Hero*/
+    
+    .hero-subtitle {
+        font-size: 22px;
+    }
+    .hero-title {
+        font-size: 25px;
+    }
+    .hero-avatar {
+        width: 200px;
+        height: 200px;
+        border-width: 4px;
+        background-position: center top -70px;
+    }
+
+    /*Features*/
+    .features-title {
+        font-size: 22px;
+    }
+    .features-text {
+        font-size: 15px;
+    }
+
+    /*Project*/
+    .project-time,.project-cost {
+        width: 100%;
+    }
+    .project-time,.project-cost,.project-feedback {
+        margin-bottom: 30px;
+    }
+    .project-feedback {
+        margin-bottom: 0;
+    }
+    .project-subtitle {
+        font-size: 17px;
+    }
+    .project-paragraph {
+        font-size: 14px;
+    }
+
+    /*Contacts*/
+    .contacts-form {
+        padding: 30px 20px;
+    }
+    .contacts-title {
+        font-size: 20px;
+    }
+}
+
+
